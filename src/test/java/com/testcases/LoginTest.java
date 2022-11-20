@@ -14,7 +14,8 @@ public class LoginTest {
 			System.setProperty("webdriver.chrome.driver",
 					"/home/dell/Documents/SeleniumSoftwares/chromeexefiles/chromedriver");
 			WebDriver driver = new ChromeDriver();
-			driver.get("http://www.seleniumbymahesh.com/HMS");
+			//navigating
+			driver.get("google.com");
 			
 			driver.quit();
 			
