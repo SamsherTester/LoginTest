@@ -4,6 +4,8 @@ public class User {
 	
 	private String uName;
 	private String pwd;
+	private String age;
+	
 	public String getuName() {
 		return uName;
 	}
