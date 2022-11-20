@@ -1,12 +1,14 @@
 package com.testcases;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+
 public class LoginTest {
 
-	public class Login {
 
 		@Test
 		public void login() {
@@ -15,8 +17,9 @@ public class LoginTest {
 					"/home/dell/Documents/SeleniumSoftwares/chromeexefiles/chromedriver");
 			WebDriver driver = new ChromeDriver();
 			//navigating
-			driver.get("google.com");
+			driver.get("https://github.com");
 			
+			driver.manage().timeouts().implicitlyWait(10000,TimeUnit.MILLISECONDS);
 			driver.quit();
 			
 			
@@ -25,4 +28,3 @@ public class LoginTest {
 		}
 
 	}
-}

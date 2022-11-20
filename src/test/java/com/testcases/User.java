@@ -1,7 +1,11 @@
 package com.testcases;
 
+import org.testng.annotations.Test;
+
+
 public class User {
 
+	
 	private String uName;
 	private String pwd;
 	private String age;
