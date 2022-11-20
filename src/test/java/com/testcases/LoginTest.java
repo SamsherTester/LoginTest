@@ -16,6 +16,9 @@ public class LoginTest {
 			WebDriver driver = new ChromeDriver();
 			driver.get("http://www.seleniumbymahesh.com/HMS");
 			
+			driver.quit();
+			
+			
 			
 			
 		}
