@@ -7,6 +7,9 @@ public class User {
 	private String pwd;
 	private String id;
 	
+	private String age;
+	
+	
 	public String getuName() {
 		return uName;
 	}
@@ -24,6 +27,12 @@ public class User {
 	@Override
 	public String toString() {
 		return "User [uName=" + uName + ", pwd=" + pwd + "]";
+	}
+	public String getAge() {
+		return age;
+	}
+	public void setAge(String age) {
+		this.age = age;
 	}
 	
 	
