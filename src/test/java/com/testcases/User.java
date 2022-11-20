@@ -12,9 +12,17 @@ public class User {
 	}
 	public String getPwd() {
 		return pwd;
-	}
-	public void setPwd(String pwd) {
+	}public void setPwd(String pwd) {
 		this.pwd = pwd;
 	}
+	
+
+	@Override
+	public String toString() {
+		return "User [uName=" + uName + ", pwd=" + pwd + "]";
+	}
+	
+	
+	
 
 }
