@@ -1,9 +1,12 @@
 package com.testcases;
 
+
 public class User {
 	
 	private String uName;
 	private String pwd;
+	private String id;
+	
 	public String getuName() {
 		return uName;
 	}
@@ -15,6 +18,7 @@ public class User {
 	}public void setPwd(String pwd) {
 		this.pwd = pwd;
 	}
+	
 	
 
 	@Override
