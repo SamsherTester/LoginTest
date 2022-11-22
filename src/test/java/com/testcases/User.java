@@ -10,6 +10,18 @@ public class User {
 	private String pwd;
 	private String age;
 
+	
+	public User() {
+		super();
+	}
+
+	public User(String uName, String pwd, String age) {
+		super();
+		this.uName = uName;
+		this.pwd = pwd;
+		this.age = age;
+	}
+
 	public String getuName() {
 		return uName;
 	}
